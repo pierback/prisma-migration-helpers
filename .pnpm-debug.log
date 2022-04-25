@@ -1,0 +1,24 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1,
+    "workspacePrefix": "/Users/fabianpieringer/Documents/projects/etf-core"
+  },
+  "1 info pnpm": {
+    "err": {
+      "name": "Error",
+      "message": "not found: migrate:new",
+      "code": "ENOENT",
+      "stack": "Error: not found: migrate:new\n    at getNotFoundError (/Users/fabianpieringer/.nvm/versions/node/v14.17.0/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.3/node_modules/pnpm/dist/pnpm.cjs:41585:51)\n    at Function.whichSync [as sync] (/Users/fabianpieringer/.nvm/versions/node/v14.17.0/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.3/node_modules/pnpm/dist/pnpm.cjs:41662:13)\n    at getCommandAbsolutePathSync (/Users/fabianpieringer/.nvm/versions/node/v14.17.0/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.3/node_modules/pnpm/dist/pnpm.cjs:43227:44)\n    at default_1 (/Users/fabianpieringer/.nvm/versions/node/v14.17.0/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.3/node_modules/pnpm/dist/pnpm.cjs:43236:32)\n    at /Users/fabianpieringer/.nvm/versions/node/v14.17.0/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.3/node_modules/pnpm/dist/pnpm.cjs:178180:39"
+    }
+  },
+  "2 error pnpm": {
+    "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
+    "prefix": "/Users/fabianpieringer/Documents/projects/etf-core/packages/utils/migration-helpers",
+    "err": {
+      "name": "pnpm",
+      "message": "not found: migrate:new",
+      "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
+      "stack": "Error: not found: migrate:new\n    at getNotFoundError (/Users/fabianpieringer/.nvm/versions/node/v14.17.0/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.3/node_modules/pnpm/dist/pnpm.cjs:41585:51)\n    at Function.whichSync [as sync] (/Users/fabianpieringer/.nvm/versions/node/v14.17.0/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.3/node_modules/pnpm/dist/pnpm.cjs:41662:13)\n    at getCommandAbsolutePathSync (/Users/fabianpieringer/.nvm/versions/node/v14.17.0/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.3/node_modules/pnpm/dist/pnpm.cjs:43227:44)\n    at default_1 (/Users/fabianpieringer/.nvm/versions/node/v14.17.0/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.3/node_modules/pnpm/dist/pnpm.cjs:43236:32)\n    at /Users/fabianpieringer/.nvm/versions/node/v14.17.0/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.3/node_modules/pnpm/dist/pnpm.cjs:178180:39"
+    }
+  }
+}

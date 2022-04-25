@@ -1,0 +1,17 @@
+{
+  "name": "@etf-utils/migration-helpers",
+  "version": "0.0.1",
+  "description": "",
+  "bin": {
+    "migration-cleanup": "target/release/migration-cleanup",
+    "next-migration-version": "target/release/next-migration-version",
+    "commit": "target/release/commit"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\"",
+    "build": "cargo build --release",
+    "build:commit": "cargo build --bin commit --release",
+    "build:cleanup": "cargo build --bin migration-cleanup --release",
+    "build:version": "cargo build --bin next-migration-version --release "
+  }
+}

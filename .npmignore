@@ -1,0 +1,10 @@
+target/debug
+target/release/examples/
+target/release/incremental/
+target/release/deps/
+target/release/build/
+target/release/.fingerprint/
+target/release/.cargo-lock
+target/release/after-migration-cleanup.d
+debug/
+src/

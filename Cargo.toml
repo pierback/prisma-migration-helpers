@@ -1,0 +1,25 @@
+[package]
+name = "migration-helpers"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+ansi_term = "0.12"
+walkdir = "2"
+regex = "1"
+
+[[bin]]
+name = "commit"
+path = "src/bin/commit.rs"
+
+[[bin]]
+name = "next-migration-version"
+path = "src/bin/version.rs"
+
+[[bin]]
+name = "migration-cleanup"
+path = "src/bin/cleanup.rs"
+
+[lib]
+name = "lib"
+path = "src/lib.rs"
